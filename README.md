@@ -28,12 +28,12 @@ router.js:35 Uncaught ReferenceError: renderProducts is not defined
 
 
 <!-- 👇 Estas líneas DEBEN estar justo antes de </body> -->
-<script src="../js/auth.js"></script>
-<script src="../js/products.js"></script> <!-- OBLIGATORIO -->
-<script src="../js/cart.js"></script>
-<script src="../js/profile.js"></script>
-<script src="../js/admin.js"></script>
-<script src="../js/router.js"></script> <!-- SIEMPRE AL FINAL -->
+script src="../js/auth.js"></script>
+script src="../js/products.js"></script> <!-- OBLIGATORIO -->
+script src="../js/cart.js"></script>
+script src="../js/profile.js"></script>
+script src="../js/admin.js"></script>
+script src="../js/router.js"></script> <!-- SIEMPRE AL FINAL -->
 </body>
 
 loadPage("productos"); // ❌ Esto da error si no existe la función
@@ -48,13 +48,13 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 html
-<div id="navbar"></div>
-<div id="main-content"></div>
+div id="navbar"></div>
+div id="main-content"></div>
 
 
-<div id="app-container">
-  <nav id="sidebar"></nav>
-  <main id="main-content"></main>
+div id="app-container">
+  nav id="sidebar"></nav>
+  main id="main-content"></main>
 </div>
 
 css
@@ -151,7 +151,7 @@ function renderNavbar(session) {
     <button data-route="productos">🧺 Productos</button>
     <button data-route="carrito">🛒 Carrito</button>
     <button data-route="perfil">${session.name}</button>
-    ${session.role === "A" ? `<button data-route="stock">📦 Historial</button>` : ""}
+    ${session.role === "A" ? `button data-route="stock">📦 Historial</button>` : ""}
     <button onclick="logout()">🚪 Cerrar sesión</button>
     <span id="session-indicator">🔒 Sesión activa</span>
   `;
@@ -161,8 +161,8 @@ function renderNavbar(session) {
 
 html
 .
-<div id="app-container">
-  <nav id="sidebar"></nav>
-  <main id="main-content"></main>
+div id="app-container">
+  nav id="sidebar"></nav>
+  main id="main-content"></main>
 </div>
 .
