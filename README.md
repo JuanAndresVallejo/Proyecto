@@ -51,6 +51,7 @@ html
 <div id="navbar"></div>
 <div id="main-content"></div>
 
+
 <div id="app-container">
   <nav id="sidebar"></nav>
   <main id="main-content"></main>
