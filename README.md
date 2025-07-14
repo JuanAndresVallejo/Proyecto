@@ -20,3 +20,8 @@ JSON.parse(localStorage.getItem("session")).role
 
 
 https://github.com/angelicacvo/rutaViva
+
+
+router.js:35 Uncaught ReferenceError: renderProducts is not defined
+    at loadPage (router.js:35:5)
+    at router.js:30:1
