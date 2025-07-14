@@ -1,0 +1,73 @@
+/* style.css */
+
+body {
+margin: 0;
+font-family: Arial, sans-serif;
+background: #f4f4f4;
+color: #333;
+transition: background 0.3s, color 0.3s;
+}
+
+header {
+background-color: #4CAF50;
+color: white;
+padding: 1rem;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.nav-links button {
+margin-left: 1rem;
+background: none;
+border: none;
+color: white;
+font-weight: bold;
+cursor: pointer;
+}
+
+main {
+padding: 1rem;
+}
+
+.grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+gap: 1rem;
+}
+
+.product-card {
+background: white;
+border: 1px solid #ccc;
+padding: 1rem;
+border-radius: 10px;
+}
+
+.actions {
+margin-top: 1rem;
+}
+
+input, button {
+padding: 0.5rem;
+margin: 0.25rem 0;
+width: 100%;
+box-sizing: border-box;
+}
+
+.dark {
+background: #1c1c1c;
+color: #eee;
+}
+
+.dark .product-card {
+background: #333;
+border-color: #555;
+}
+
+.dark header {
+background-color: #2e7d32;
+}
+
+button:hover {
+opacity: 0.85;
+}

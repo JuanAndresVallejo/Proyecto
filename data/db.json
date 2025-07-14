@@ -1,0 +1,81 @@
+{
+"users": [
+    {
+    "id": 1,
+    "name": "Admin 1",
+    "email": "admin1@nana.com",
+    "password": "admin123",
+    "role": "A"
+    },
+    {
+    "id": 2,
+    "name": "Admin 2",
+    "email": "admin2@nana.com",
+    "password": "admin123",
+    "role": "A"
+    },
+    {
+    "id": 3,
+    "name": "Usuario 1",
+    "email": "u1@nana.com",
+    "password": "user123",
+    "role": "U"
+    },
+    {
+    "id": 4,
+    "name": "Usuario 2",
+    "email": "u2@nana.com",
+    "password": "user123",
+    "role": "U"
+    },
+    {
+    "id": 5,
+    "name": "Usuario 3",
+    "email": "u3@nana.com",
+    "password": "user123",
+    "role": "U"
+    },
+    {
+    "id": 6,
+    "name": "Usuario 4",
+    "email": "u4@nana.com",
+    "password": "user123",
+    "role": "U"
+    },
+    {
+    "id": 7,
+    "name": "Usuario 5",
+    "email": "u5@nana.com",
+    "password": "user123",
+    "role": "U"
+    }
+],
+"products": [
+    {
+    "id": 101,
+    "name": "Tomate",
+    "price": 2500,
+    "stock": 30
+    },
+    {
+    "id": 102,
+    "name": "Cebolla",
+    "price": 1800,
+    "stock": 20
+    },
+    {
+    "id": 103,
+    "name": "Papa criolla",
+    "price": 3000,
+    "stock": 25
+    },
+    {
+    "id": 104,
+    "name": "Zanahoria",
+    "price": 2200,
+    "stock": 15
+    }
+],
+"purchases": [],
+"stockHistory": []
+}
